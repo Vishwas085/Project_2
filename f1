@@ -12,4 +12,7 @@ stages
     steps
 	   "mvn_build"
 	   
-	   }
+  stage (sonarqube)
+}
+  
+   
