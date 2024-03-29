@@ -14,5 +14,6 @@ stages
 	   
   stage (sonarqube)
 }
-  
+  jacaco
+  distribution set up  
    
