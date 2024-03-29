@@ -13,6 +13,9 @@ stages
 	   "mvn_build"
 	   
   stage (sonarqube)
+    steps
+	   "scan./int()"
 }
+
   
    
