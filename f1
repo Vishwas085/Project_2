@@ -1,0 +1,15 @@
+pipeline
+{
+agent dev
+stages
+  {
+  stage(git_checckout)
+    steps
+       node (CI_Manage)
+       }
+       
+  stage (mvn_build)
+    steps
+	   "mvn_build"
+	   
+	   }
